@@ -10,3 +10,4 @@ gastown_store = Store.create(name: "Gastown", annual_revenue: 190000, mens_appar
 
 stores = Store.all
 puts stores
+puts (Store).count
